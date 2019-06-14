@@ -1,33 +1,163 @@
-.App {
-  text-align: center;
+h1, h2, h3 , h4, h5 {
+    font-family: 'Indie Flower', cursive !important;
+}
+p , a{
+    font-family: 'Courgette', cursive;
+    font-weight: 700 !important;
+}
+a{
+    text-decoration: none !important;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+
+/********************************/
+.header-color{
+    background: #c31432;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #240b36, #c31432) !important;  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #240b36, #c31432) !important; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+border-right: 0 !important;
+
+}
+.mdl-layout__drawer .mdl-navigation .mdl-navigation__link{
+    color: #fff !important;
+}
+.mdl-layout__drawer .mdl-navigation .mdl-navigation__link:hover {
+    background-color: #240b36 !important;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.landing-grid{
+    background: #c31432;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #240b36, #c31432);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #240b36, #c31432); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+.landing-grid .avatar-img{
+    height: 250px;
+    padding-top: 5em;
+}
+.landing-grid .banner-text{
+    /* background:  #26182f; #240b36 */
+    background: #c31432;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #240b36, #c31432);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #240b36, #c31432); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    width: 75%;
+    opacity: .8;
+    margin: auto;
+    border-radius: 10px;
+}
+.landing-grid .banner-text h1{
+    font-size: 72px;
+    color: #d9a094;
+    font-weight: bold;
+}
+.landing-grid .banner-text hr{
+    border-top: 5px dotted #d9a094;
+    width: 50%;
+    margin: auto;
+}
+.landing-grid .banner-text p{
+    color: #d9a094;
+    font-size: 20px;
+    padding: 1em;
+}
+.landing-grid .banner-text .social-links{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin: auto;
+}
+.landing-grid .banner-text .social-links i{
+    padding: 8px;
+    color: #d9a094;
+    font-size: 5em;
 }
 
-.App-link {
-  color: #61dafb;
+/**************************************/
+.projects-grid{
+    display: flex;
+}
+.mdl-layout.has-scrolling-header .mdl-layout__content{
+    background: #c31432;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #240b36, #c31432) !important;  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #240b36, #c31432) !important;
+}
+.mdl-tabs__tab{
+    color: #d9a094 !important;
+    font-size: 16px !important;
+}
+.mdl-tabs__tab-bar{
+    border-bottom: 0 !important
+}
+.mdl-tabs{
+    margin-bottom: 4em;
+    margin-top: 4em;
+}
+.mdl-card{
+    background: #a9083305 !important;
+}
+.mdl-card__supporting-text , .mdl-button.mdl-button--colored{
+    color: #d9a094 !important;
+}
+/*****************************************/
+.contact-body{
+    margin: auto;
+    /* background: grey; */
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    padding-top: 2em;
+    background: #c31432;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #240b36, #c31432) !important;  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #240b36, #c31432) !important;
+}
+.contact-body .contact-grid{
+    text-align: center;
+    justify-content: center;
+    height: 550px;
+    width: 80%;
+    
+    color: #d9a094;
+    /* border: 2px solid red; */
+    margin-bottom: 20px;
+}
+.contact-body .contact-grid p{
+    font-weight: bold;
+}
+.contact-body .contact-grid hr{
+    border-top: 5px dotted #d9a094;
+    margin: auto;
+    width: 50%;
+}
+.contact-body .contact-grid .contact-list .mdl-list__item {
+    color: #d9a094 !important;
+}
+.contact-body .contact-grid .contact-list i{
+    font-size: 25px;
+    padding-left: 8rem;
+    color: #d9a094 ;
+    padding-right: 1em;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/*****************************************/
+.resume{
+    background: #c31432;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #240b36, #c31432) !important;  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #240b36, #c31432) !important;
+}
+.resume-right-col{
+    color: #fff;
+    background: #ad1335;
+    padding: 2em;
+    opacity: 0.6;
+}
+.resume-left-col{
+    color: #d9a094;
 }
